@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1 class="title">Things you need to do</h1>
+
+    <div class="main-section">
+
+        <!-- tasks -->
+        <div class="tasks col">
+            <ul class="tasks-list">
+              
+            </ul>
+            <!-- add task -->
+            <form class="add-task-form">
+                <button  class="btn-add-task btn" type="submit">+</button>
+                <input type="text" placeholder="new list name" class="add-task-input"> 
+            </form>
+        </div>
+  
+
+        <!-- details -->
+     <div class="task-details col">
+                 <div class="details-header">
+                     <h2 id="task-title"></h2>
+                 </div>
+            <!-- details-body -->
+              <div class="task-details-body">
+                  <div class="tasks-center"></div>
+              <!-- end of tasks -->
+             <div class="new-task-creator">
+                <form class="add-task-detail-form">
+                    <button  class="btn-add-task add-task  btn" type="submit">+</button>
+                    <input type="text" placeholder="new task name" class="add-task-detail"> 
+                </form>
+             </div>          
+          </div>
+             <!-- delete stuff -->
+            <div class="delete-stuff-btns">
+                <button class="btn-delete delete-completed">Clear Completed task</button>
+                <button class="btn-delete delete-list">Delete List</button>         
+             </div>
+
+        <!-- end of main -->
+    </div>
+
+
+    
+</body>
+</html>
